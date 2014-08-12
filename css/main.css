@@ -1,7 +1,21 @@
 .pixel {
 	width: 2px;
 	height: 2px;
-	background-color: red;
+	background-color: black;
+
 }
 
 
+.score {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	/*background-color: red;*/
+	width: 80px;
+}
+
+.counter {
+	float: right;
+	position: inline-block;
+}
